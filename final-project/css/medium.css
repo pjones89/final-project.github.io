@@ -1,0 +1,50 @@
+@media only screen and (min-width: 40em) {
+    #company1, #company2, #company3 {
+        display:flex;
+        justify-content: space-around;
+    }
+
+    #company1 p, #company2 p, #company3 p {
+       border-style: solid;
+       height: 100px;
+       width: 200px;
+       text-align: center;
+       align-items: center;
+       background-color: darkred;
+       padding: 10px;
+       align-self: center;
+    }
+
+    #company2 img {
+        order: 2;
+    }
+    #company2 p {
+        order: 1;
+    }
+
+    #company1 img, #company2 img, #company3 img {
+        width:45%;
+        height:auto;
+        align-self: center;
+    }
+
+    #company1, #company2, #company3 {
+        border-style: groove;
+        background-color: gray;
+        margin: 20px;
+    }
+
+    .forecast-grid {
+        justify-content: center;
+    }
+
+    #menulinks {
+        display: inline;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+}
